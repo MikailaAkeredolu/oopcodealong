@@ -2,8 +2,13 @@ package oop;
 
 public  class Cat extends Feline implements IPet{
 
+
     public Cat(String food) {
         super(food);
+    }
+
+    public Cat(String food, int age) {
+        super(food, age);
     }
 
     @Override
