@@ -7,10 +7,9 @@ public class AnimalKingdom {
 
 
 
-
         Cat cat = new Cat("Fish", 12);
-        Animal.printAnimalAge(cat);
-//        System.out.println(cat);
+        //Animal.printAnimalAge(cat);
+        System.out.println(cat);
 //        cat.printAnimalFood("This is a cat and it eats");
 
 

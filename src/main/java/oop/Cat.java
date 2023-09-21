@@ -23,4 +23,13 @@ public  class Cat extends Feline implements IPet{
     }
 
 
+    @Override
+    public String toString() {
+        //System.out.println( super.toString());
+        return "Cat{" +
+                "food='" + food + '\'' +
+                '}';
+    }
+
+
 }

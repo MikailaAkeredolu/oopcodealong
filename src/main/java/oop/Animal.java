@@ -1,6 +1,6 @@
 package oop;
 
-public abstract class Animal  {
+public abstract class Animal {
 
     protected String food;
     private static int age;
