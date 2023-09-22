@@ -15,7 +15,7 @@ public class AnimalKingdom {
 
 
         Dog dog = new Dog("Bones");
-//        System.out.println(dog);
+        System.out.println(dog);
 //        dog.printAnimalFood("This is a dog and it eats");
 
         RoboDog roboDog = new RoboDog();
@@ -30,7 +30,7 @@ public class AnimalKingdom {
         //System.out.println(lion99);
 
         Lion lion = new Lion("People");
-        //System.out.println(lion);
+        System.out.println(lion);
 
         Lion lion1 = new Lion("peps",8);
 

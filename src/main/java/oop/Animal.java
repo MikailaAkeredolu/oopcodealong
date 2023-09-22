@@ -5,14 +5,17 @@ public abstract class Animal {
     protected String food;
     private static int age;
 
+
     public Animal(String food){
         this.food = food;
+
     }
 
     //Overloaded constructor
     public Animal(String food, int age){
         this.food = food;
         this.age = age;
+
     }
 
     //Abstract Method- // signature
@@ -38,4 +41,7 @@ public abstract class Animal {
                 "food='" + food + '\'' +
                 '}';
     }
+
+
+
 }

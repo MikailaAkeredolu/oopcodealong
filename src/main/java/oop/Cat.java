@@ -22,14 +22,14 @@ public  class Cat extends Feline implements IPet{
         System.out.println("jumps on you and scratches your face, Spit in your face");
     }
 
-
-    @Override
-    public String toString() {
-        //System.out.println( super.toString());
-        return "Cat{" +
-                "food='" + food + '\'' +
-                '}';
-    }
+//
+//    @Override
+//    public String toString() {
+//        //System.out.println( super.toString());
+//        return "Cat{" +
+//                "food='" + food + '\'' +
+//                '}';
+//    }
 
 
 }
