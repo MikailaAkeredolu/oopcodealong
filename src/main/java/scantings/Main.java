@@ -4,13 +4,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+//        String result = String.format("%15.2f", 420000.0);
+//        System.out.println(result);
+//        System.out.println("______");
+        System.out.printf("%6.2f", 420000.0);
+
+
+
         //A string of characters
-        String firstName = "C h r i s t o p h e r"; // Tell
-
-
-       for(int x = 0; x < firstName.length(); x++){
-           System.out.println( firstName.charAt(x));
-       }
+//        String firstName = "C h r i s t o p h e r"; // Tell
+//
+//
+//       for(int x = 0; x < firstName.length(); x++){
+//           System.out.println( firstName.charAt(x));
+//       }
 
 
 
