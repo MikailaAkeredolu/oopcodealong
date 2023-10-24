@@ -19,7 +19,9 @@ public class Main {
         // List - ArrayList
         List<Student> students = new ArrayList<>();
         Student s1 = new Student("Wesley Snipes");
-        students.add(s1);        students.add( new Student("James bond"));        students.add( new Student("Jamie Jones"));
+        students.add(s1);
+        students.add( new Student("James bond"));
+        students.add( new Student("Jamie Jones"));
         students.add( new Student("Marc Jones"));
 
         for (Student student: students) {
