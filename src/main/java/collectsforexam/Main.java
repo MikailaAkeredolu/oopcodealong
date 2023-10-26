@@ -2,6 +2,7 @@ package collectsforexam;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.ListIterator;
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
 
 
         //Create an array list of numbers - Integers
-        ArrayList<Integer> listOfNumbers = new ArrayList<>();
+        List<Integer> listOfNumbers = new ArrayList<>();
         //10, 100, 1
         listOfNumbers.add(10);
         listOfNumbers.add(100);
@@ -37,6 +38,7 @@ public class Main {
         ListIterator<Integer> it = listOfNumbers.listIterator(listOfNumbers.size());
         while(it.hasPrevious()){
            // Integer number = it.next();  //
+            System.out.println("--");
             System.out.println(it.previous());
         }
 
@@ -49,6 +51,20 @@ public class Main {
 
         }
 
+
+        //Create an array list of numbers - Integers
+        ArrayList<String> listOfNames = new ArrayList<>();
+        //10, 100, 1
+        listOfNames.add("Hakeem");
+        listOfNames.add("Aliyah");
+        listOfNames.add("Tobi");
+
+
+        ListIterator<String> n = listOfNames.listIterator(listOfNames.size());
+        while(n.hasPrevious()){
+            // Integer number = it.next();  //
+            System.out.println(n.previous());
+        }
 
 
 
